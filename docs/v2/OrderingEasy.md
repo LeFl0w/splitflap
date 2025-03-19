@@ -1,4 +1,4 @@
-# [Beta] Splitflap v2 Ordering guide (not yet ready!)
+# Splitflap v2 Ordering guide
 [<< Back to Documentation Index](../DocumentationIndex.md)
 
 This is the “easy” way to order the parts for your splitflap display (United States only). It optimizes for *simplicity in ordering*, not the *lowest possible cost*.
@@ -18,8 +18,12 @@ The v2 design officially supports either 52 flaps per module or 40 flaps per mod
 
 For reference, the front face of each module is approximately **82.6mm wide** and **143.53mm tall**.
 
-
-- [ ] Use this file to order a 52-flap design, made of 3mm acrylic (Matte Black (P502) is recommended): <TBD>
+- [ ] Use this file to order a 52-flap design, made of 3mm acrylic (Matte Black (P502) is recommended): [zip](https://s3.amazonaws.com/splitflap-artifacts/refs/tags/releases/mechanics/v2/3d/3d_laser_vector-52-elecrow-3mm-acrylic_1x.zip)
+    - Go to [Elecrow acrylic laser cutting](https://www.elecrow.com/acrylic-cutting.html) and upload the zip file
+    - Enter dimensions: <img height="18" src="https://s3.amazonaws.com/splitflap-artifacts/refs/tags/releases/mechanics/v2/3d/3d_laser_vector-52-elecrow-3mm-acrylic_1x_dimensions.svg" />
+    - Select thickness: 3mm
+    - Engrave: No
+    - Acrylic color: Matte Black (P502) is recommended
 
 Full ordering instructions, and alternative files for acrylic/mdf or for 40- rather than 52-flap modules can be found [here](OrderingComplete.md).
 
@@ -42,7 +46,7 @@ I’ve previously recommended ordering from Ponoko - and while I still believe t
 
 ## Flaps
 
-**Supplier:** [Bezek Labs](https://bezeklabs.etsy.com) (again, I’m biased, but there aren’t any commercial alternatives and making them yourself requires a lot of [time and patience](https://github.com/scottbez1/splitflap/wiki/Cut-flaps))
+**Supplier:** [Bezek Labs](https://bezeklabs.etsy.com) (again, I’m biased, but there aren’t any commercial alternatives and making them yourself requires a lot of [time and patience](../Flaps.md#option-3-diy-flaps))
 
 **Two good options** (this tradeoff is totally up to you):
 

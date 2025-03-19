@@ -3,6 +3,7 @@
 This is a DIY ESP32-based [split-flap display](https://en.wikipedia.org/wiki/Split-flap_display), optimized for easy assembly at home in small quantities but able to be scaled up to large affordable displays.
 
 ![animated rendering](https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_animation.gif)
+<img src="https://s3.amazonaws.com/splitflap-artifacts/master/3d/all_flaps.gif" height="320" />
 
 [![Build Status](https://github.com/scottbez1/splitflap/actions/workflows/3d.yml/badge.svg?branch=master)](https://github.com/scottbez1/splitflap/actions/workflows/3d.yml?query=branch%3Amaster)
 [![Build Status](https://github.com/scottbez1/splitflap/actions/workflows/electronics.yml/badge.svg?branch=master)](https://github.com/scottbez1/splitflap/actions/workflows/electronics.yml?query=branch%3Amaster)
@@ -19,7 +20,7 @@ Want to help support development or just say "thanks"? Consider a one-time or mo
   <img src="renders/howItWorksThumbnail.jpg" height=320 />
 </a>
 
-**Using this project in a commercial setting or for paid client work?** Go right ahead - it's open source (just make sure to follow the terms of the Apache License)! I would, however, ask that you consider [sponsoring the project](https://github.com/sponsors/scottbez1). I've been developing and maintaining this project in my free time for over 8 years, and I'd love to continue working on it. Sponsorships allow me to pay for prototypes and development tools that make this project possible. Unlike pure software projects, every iteration has real hardware costs; sponsorships allow me to keep iterating and improving the project faster. Thank you!
+**Using this project in a commercial setting or for paid client work?** Go right ahead - it's open source (just make sure to follow the terms of the Apache License)! I would, however, ask that you consider [sponsoring the project](https://github.com/sponsors/scottbez1). I've been developing and maintaining this project in my free time for over 10 years, and I'd love to continue working on it. Sponsorships allow me to pay for prototypes and development tools that make this project possible. Unlike pure software projects, every iteration has real hardware costs; sponsorships allow me to keep iterating and improving the project faster. Thank you!
 
 
 # Current Status
@@ -27,31 +28,14 @@ Want to help support development or just say "thanks"? Consider a one-time or mo
 
 Releases have been tested and used to produce working units, but as this is a continuously evolving open-source project, there may always be minor issues and/or incomplete documentation from time to time.
 
-## Stable release info
-
-| Component | Version | Notes |
-| --- | --- | --- |
-| Enclosure/Mechanics | v0.7 | https://github.com/scottbez1/splitflap/releases/tag/v0.7 |
-| Electronics - Sensor | v1.1 | https://github.com/scottbez1/splitflap/releases/tag/releases%2Fsensor%2Fv1.1 |
-| Electronics - Chainlink Driver | v1.1 | https://github.com/scottbez1/splitflap/releases/tag/releases%2FchainlinkDriver%2Fv1.1 |
-| Electronics - Chainlink Buddy [T-Display] | v1.0 | https://github.com/scottbez1/splitflap/releases/tag/releases%2FchainlinkBuddyTDisplay%2Fv1.0 |
-| Firmware | latest | Current firmware is backwards-compatible and not strictly versioned; use the latest from the `master` branch |
-| Control Software Examples | latest | Example Typescript and Python code for driving the display is in the [software](software) directory. The Typescript library and examples are more actively developed. |
-
 Here's a video of a large 108-module display powered by 18 Chainlink Driver boards and a Chainlink Base:
 
 [![Video: animations on 108-module display](https://raw.githubusercontent.com/wiki/scottbez1/splitflap/images/animationsThumb.gif)](https://youtu.be/g9EPabcxBsM)
 
-## v2 (coming soon!)
-A minor refresh of the mechanical and sensor design is currently in beta, and the stable release is expected in Summer 2024.
+## Stable v2 Mechanical Release
+As of 2025-01-19, the v2 refresh of the mechanical and sensor design is considered stable and recommended for new builds.
 
-The beta designs (seen on this page) have been tested are nearly feature-complete, but documentation is still in progress.
-
-<img src="https://github.com/scottbez1/splitflap/assets/414890/9ffab4fa-a2db-4b5e-915a-915f81faa193" height="200" />
-<img src="https://github.com/scottbez1/splitflap/assets/414890/d89254a4-46de-4303-8402-8a4d7989d25e" height="200" />
-<img src="https://github.com/scottbez1/splitflap/assets/414890/9193a9e3-a4f5-4a54-868a-badd74168181" height="200" />
-
-**Here's what to expect in v2:**
+**Here's what's new in v2:**
 
 - **52 flaps per module** for more character/symbol options
 - **New printed flap design ("Epilogue")** with 52 flaps per set (see animation above), including several color-block flaps
@@ -65,23 +49,25 @@ The beta designs (seen on this page) have been tested are nearly feature-complet
 - No changes to Chainlink Driver, Chainlink Buddy boards, or system architecture!
 - 40-flap modules are still an officially supported option!
 - Open source, as always!
-- v0 parts (sensor kits) will continue to be stocked at Bezek Labs through 2024; don't worry if you haven't finished your build yet, the old sensor kits aren't going away!
+- v0 parts (sensor kits) will continue to be stocked at Bezek Labs through mid-2025; don't worry if you haven't finished your build yet, the old sensor kits aren't going away for a little while!
 
-I'd love to hear your thoughts and questions about this project, and happy to incorporate any feedback you might have into these designs! Please feel free (and encouraged) to [open GitHub issues](https://github.com/scottbez1/splitflap/issues/new), email me directly, reach out [on Twitter](https://twitter.com/scottbez1), and [get involved](https://github.com/scottbez1/splitflap/pulls) in the open source development and let's keep chatting and building together!
+I'd love to hear your thoughts and questions about this project, and happy to incorporate any feedback you might have into these designs! Please feel free (and encouraged) to [open GitHub issues](https://github.com/scottbez1/splitflap/issues/new), email me directly, reach out [on Bluesky](https://bsky.app/profile/scottbez1.bsky.social), and [get involved](https://github.com/scottbez1/splitflap/pulls) in the open source development and let's keep chatting and building together!
 
 # Build Your Own
 If you have any questions, please don't hesitate to ask in the [community Discord server](https://discord.gg/Hxnftc8PyW)!
 
-Note: the ordering and assembly guides have not yet been updated for the beta v2 designs. Ask in Discord if you have any questions about ordering or assembling a v2 display!
-
-* [**Ordering guide (the "easy" route) - updated for Chainlink**](https://paper.dropbox.com/doc/Splitflap-Ordering-the-easy-route--BsXzf8VyILR3nl1vUpOi28TWAg-0i6r3aqw6kZVXQOP2MyNr)
-* [**Chainlink Driver Electronics User Guide**](https://paper.dropbox.com/doc/Chainlink-Driver-v1.1-Electronics-User-Guide--BsVuP9OHVo952_ZdJDBomCCzAg-U0DAXrSxEoOhgSoRU39hq)
-* [**Latest stable release**](https://github.com/scottbez1/splitflap/releases)
-* [**Assembly instructions (v0.5/0.6/0.7)**](https://paper.dropbox.com/doc/Splitflap-Kit-v0.5v1.0-Instructions--ASQDu1uoa6n4_t1pva1bM1MgAg-bxXJlke5ROmamcx4OH44r)
+* [**Documentation Index**](/docs/DocumentationIndex.md)
+* [**Ordering guide (the "easy" route) v2**](/docs/v2/OrderingEasy.md)
+* [**Comprehensive ordering guide**](/docs/v2/OrderingComplete.md)
+* [**Chainlink Driver Electronics User Guide**](/docs/ElectronicsGuide.md)
+* [**Assembly instructions v2**](/docs/v2/Assembly.md)
+* [**Latest stable releases**](https://github.com/scottbez1/splitflap/releases)
 
 # Table of Contents
 - [Design Overview](#design-overview)
   - [Mechanical](#mechanical)
+    - [Combined front panel (script)](#combined-front-panel-script)
+    - [Flap font/sticker generator (script)](#flap-fontsticker-generator-script)
   - [Electronics](#electronics)
     - [Sensor PCBs](#sensor-pcbs-1-per-module)
     - [Chainlink Driver](#chainlink-driver-1-per-6-modules)
@@ -92,8 +78,6 @@ Note: the ordering and assembly guides have not yet been updated for the beta v2
     - [Older designs](#older-designs)
       - [Classic controller](#classic-controller-electronics-deprecated)
     + [Miscellaneous Tools](#miscellaneous-tools)
-      - [Flaps and Fonts](#flaps-and-fonts)
-      - [Combined Front Panel Generator](#combined-front-panel-generator)
       - [3D Printed Tools](#3d-printed-tools)
       - [Chainlink Driver Tester](#chainlink-driver-tester)
   * [Code](#code)
@@ -110,17 +94,12 @@ The mechanical/structural components are made from laser-cut 3mm MDF or acrylic,
 
 You can view an interactive 3d model of the design [here](https://scottbez1.github.io/splitflap/embed.html?branch=master).
 
-The beta v2 mechanical design officially supports variants with 52 flaps (perfect for use with the new ["Epilogue" printed flaps](https://bezeklabs.etsy.com/listing/1685633114/)) and 40 flaps. But you can always modify the design to customize it further.
+The v2 mechanical design officially supports variants with 52 flaps (perfect for use with the new ["Epilogue" printed flaps](https://bezeklabs.etsy.com/listing/1685633114/)) and 40 flaps. But you can always modify the design to customize it further.
 
-### Stable v0.7 (40-flap modules)
-![2d laser cut rendering](https://s3.amazonaws.com/splitflap-artifacts/refs/tags/v0.7/3d/3d_laser_raster.png)
-
-The v0.7 stable release artifacts can be found at the [v0.7 tagged release](https://github.com/scottbez1/splitflap/releases/tag/v0.7).
-
-### Beta v2 (52-flap module option - recommended)
+### v2 (52-flap module option - recommended)
 ![2d laser cut rendering](https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_laser_raster-52.png)
 
-Instructions: [v2 assembly guide](https://paper.dropbox.com/doc/Splitflap-v2-Assembly-Guide-vsT9BHwl9xhE9yZCMB3OC)
+Instructions: [v2 assembly guide](/docs/v2/Assembly.md)
 
 Module dimensions: <img height="18" src="https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_laser_vector-52-module_dimensions.svg" />
 
@@ -131,12 +110,12 @@ Latest auto-generated (untested!) artifacts<sup>:warning:</sup>:
 * For Elecrow 3mm Wood ([zipped pdf](https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_laser_vector-52-elecrow-3mm-wood_1x.zip))
 * For Elecrow 3mm Acrylic ([zipped pdf](https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_laser_vector-52-elecrow-3mm-acrylic_1x.zip))
 
-<sup>:warning:</sup>For tested/stable/recommended artifacts, use the [latest release](https://github.com/scottbez1/splitflap/releases) instead
+<sup>:warning:</sup>For tested/stable/recommended artifacts, always use the [latest release](https://github.com/scottbez1/splitflap/releases) instead, as the links on this page will change over time.
 
-### Beta v2 (40-flap module option)
+### v2 (40-flap module option)
 ![2d laser cut rendering](https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_laser_raster-40.png)
 
-Instructions: [v2 assembly guide](https://paper.dropbox.com/doc/Splitflap-v2-Assembly-Guide-vsT9BHwl9xhE9yZCMB3OC)
+Instructions: [v2 assembly guide](/docs/v2/Assembly.md)
 
 Module dimensions: <img height="18" src="https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_laser_vector-40-module_dimensions.svg" />
 
@@ -147,7 +126,89 @@ Latest auto-generated (untested!) artifacts<sup>:warning:</sup>:
 * For Elecrow 3mm Wood ([zipped pdf](https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_laser_vector-40-elecrow-3mm-wood_1x.zip))
 * For Elecrow 3mm Acrylic ([zipped pdf](https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_laser_vector-40-elecrow-3mm-acrylic_1x.zip))
 
-<sup>:warning:</sup>For tested/stable/recommended artifacts, use the [latest release](https://github.com/scottbez1/splitflap/releases) instead
+<sup>:warning:</sup>For tested/stable/recommended artifacts, always use the [latest release](https://github.com/scottbez1/splitflap/releases) instead, as the links on this page will change over time.
+
+### Combined front panel (script)
+By default, the design will have a separate laser-cut faceplate for each individual module. For larger displays you may want to combine front panels into a single piece, and the repo has a script to help with this.
+
+You can modify:
+* Number of rows and columns
+* Horizontal and vertical spacing/separation of modules
+* Overall outer width and height of the panel
+
+There are a lot of options; see the `--help` for explanations.
+
+#### Example 1 - Laser cut 6x1
+
+<a href="https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_front_panel-52-elecrow-3mm-acrylic-6x1.svg">
+<img width="640" src="https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_front_panel_raster-52-elecrow-3mm-acrylic-6x1.png"/>
+</a>
+
+```
+python3 3d/scripts/generate_combined_front_panel.py \
+  --kerf-preset elecrow-3mm-acrylic \
+  --num-flaps 52 \
+  --cols 6 \
+  --rows 1 \
+  --spacing-x 0 \
+  --spacing-y 0 \
+  --frame-margin-x 0 \
+  --frame-margin-y 0 \
+  --center-mode module
+```
+
+#### Example 2 - CNC router 12x2, with frame margin
+<a href="https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_front_panel-52-3.175-20x4margin-12x2.svg">
+<img width="640" src="https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_front_panel_raster-52-3.175-20x4margin-12x2.png"/>
+</a>
+
+For CNC cutting, the script supports rendering a vector file optimized for thicker material (e.g. 6mm MDF) where only the bolt-holes will be through-cut. In this mode, the slots for the top/bottom enclosure pieces can be cut as ~4mm pockets so they aren't visible from the front face. The script automatically generates dog-bone shapes for these pocket cuts.
+
+This example also demonstrates use of the --frame-margin-x and --frame-margin-y options to add an additional margin of 20mm horizontally and 4mm vertically to the front panel dimensions.
+
+```
+python3 3d/scripts/generate_combined_front_panel.py \
+  --tool-diameter 3.175 \
+  --num-flaps 52 \
+  --cols 12 \
+  --rows 2 \
+  --spacing-x 0 \
+  --spacing-y 0 \
+  --frame-margin-x 20 \
+  --frame-margin-y 4 \
+  --center-mode module
+```
+
+### Flap font/sticker generator (script)
+If you'd like to print your own flaps, or cut custom vinyl letter stickers, the project includes a script (`generate_fonts.py`) to generate vector design files, which is extremely configurable:
+
+* Font for text
+  * This is further customizable in `flap_fonts.scad` -- this is where font parameters are defined like the overall font scale, position offsets, and even per-character scale and position overrides in case you need to tweak particularly problematic letters (e.g. a really wide "W" or an "@" with too thin of a stroke).
+* Character-set - which letters/numbers/symbols/colors are included and in what order
+* Bleed - extends rendering past the borders of the flaps to compensate for slight misalignment of printing and cutting operations
+* Keepout areas - option to highlight keepout violations for manual review, automatically clip them, or ignore them
+* Rendering options:
+    * Single-sided - useful for previewing how all letters will look on flaps
+    * Front/back - for batch duplex printing, generate separate front-side and back-side files (e.g. sign shop printing on a flat sheet of PVC)
+    * Side-by-side - for individual flap printing, each flap's front design is laid out side-by-side with its back design
+
+There are a lot of options; see the `--help` for explanations.
+
+
+#### Example 1 - Epilogue font, rendered in front+back pairs, default character set, 1mm bleed (for printing)
+
+<a href="https://s3.amazonaws.com/splitflap-artifacts/master/3d/font_example-Epilogue-1mmBleed.svg">
+<img width="400" src="https://s3.amazonaws.com/splitflap-artifacts/master/3d/font_example-Epilogue-1mmBleed.png"/>
+</a>
+
+```
+python3 3d/scripts/generate_fonts.py \
+  --mode side-by-side \
+  --font Epilogue \
+  --columns 4 \
+  --bleed 1 \
+  --fill
+```
 
 
 ## Electronics
@@ -174,17 +235,7 @@ power management/distribution and fault monitoring, UART and RS-485 connections,
 ### Sensor PCBs (1 per module)
 Each module needs a hall-effect sensor for start-up calibration and fault monitoring. 
 
-#### Sensors for stable v0.7 hardware
-Older sensors for the v0.7 and older laser-cut hardware can be found in the [tagged sensor release](https://github.com/scottbez1/splitflap/releases/tag/releases%2Fsensor%2Fv1.1).
-
-These older sensors are not compatible with v2 laser-cut hardware.
-
-<a href="https://s3.amazonaws.com/splitflap-artifacts/refs/tags/releases/sensor/v1.1/electronics-classic/sensor-panelized-pcb-raster.png">
-<img width="320" src="https://s3.amazonaws.com/splitflap-artifacts/refs/tags/releases/sensor/v1.1/electronics-classic/sensor-panelized-pcb-raster.png"/>
-</a>
-
-
-#### Beta Sensors v2
+#### Sensors v2
 
 <a href="https://s3.amazonaws.com/splitflap-artifacts/master/electronics-v2/panelized_sensor_smd-front-3d.png">
 <img width="320" src="https://s3.amazonaws.com/splitflap-artifacts/master/electronics-v2/panelized_sensor_smd-front-3d.png"/>
@@ -218,7 +269,7 @@ Latest auto-generated (untested!) artifacts<sup>:warning:</sup>:
   * PCB CPL (for JLCPCB assembly) [csv](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-v2/sensor_smd-panelized-jlc/pos.csv)
 * Purchase sensor kits in the US: [Bezek Labs](https://bezeklabs.etsy.com/listing/1696745674)
 
-<sup>:warning:</sup>For tested/stable/recommended artifacts, use the [latest release](https://github.com/scottbez1/splitflap/releases) instead
+<sup>:warning:</sup>For tested/stable/recommended artifacts, always use the [latest release](https://github.com/scottbez1/splitflap/releases) instead, as the links on this page will change over time.
 
 ### Chainlink Driver (1 per 6 modules)
 <a href="https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink/chainlinkDriver-3d.png">
@@ -237,7 +288,7 @@ to validate data integrity up and down the whole chain
 Chainlink Driver boards are [available mostly-assembled in the Bezek Labs store](https://bezeklabs.etsy.com/listing/1123280069/splitflap-chainlink-driver-v11),
 and come with the additional connectors and ribbon cables you'll need. Purchases support continued development of this project.
 
-More information on building and using Chainlink Drivers is available in the [Chainlink Driver User Guide](https://paper.dropbox.com/doc/Chainlink-Driver-v1.1-Electronics-User-Guide--BW2lxdjVkAxva68kYw2doWQEAg-U0DAXrSxEoOhgSoRU39hq).
+More information on building and using Chainlink Drivers is available in the [Chainlink Driver User Guide](/docs/ElectronicsGuide.md).
 
 Or if you'd like to order these directly from a fab, this design is optimized for assembly at JLCPCB, and files are automatically generated
 for ordering *assembled* PCBs there. Or if you wish to assemble this board yourself instead of paying for assembly, 
@@ -264,7 +315,7 @@ Latest auto-generated (untested!) artifacts<sup>:warning:</sup>:
 * PCB CPL (for JLCPCB assembly) [csv](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink/chainlinkDriver-jlc/pos.csv)
 * PCB bom (for manual assembly) [interactive](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink/bom/chainlinkDriver-ibom.html)
 
-<sup>:warning:</sup>For tested/stable/recommended artifacts, use the [latest release](https://github.com/scottbez1/splitflap/releases) instead
+<sup>:warning:</sup>For tested/stable/recommended artifacts, always use the [latest release](https://github.com/scottbez1/splitflap/releases) instead, as the links on this page will change over time.
 
 ### Chainlink Buddy \[T-Display\] (1 for entire display)
 <a href="https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink-buddy-t-display/chainlinkBuddyTDisplay-3d.png">
@@ -301,7 +352,7 @@ Latest auto-generated (untested!) artifacts<sup>:warning:</sup>:
 * Panelized PCB ([gerbers](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink-buddy-t-display/chainlinkBuddyTDisplay-panelized-jlc/gerbers.zip) / [pdf](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink-buddy-t-display/chainlinkBuddyTDisplay-panelized-pcb-packet.pdf))
 * PCB bom (for manual assembly) [interactive](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink-buddy-t-display/bom/chainlinkBuddyTDisplay-ibom.html)
 
-<sup>:warning:</sup>For tested/stable/recommended artifacts, use the [latest release](https://github.com/scottbez1/splitflap/releases) instead
+<sup>:warning:</sup>For tested/stable/recommended artifacts, always use the [latest release](https://github.com/scottbez1/splitflap/releases) instead, as the links on this page will change over time.
 
 ### Advanced items
 #### Chainlink Buddy \[Breadboard\] (1 for entire display; alternative to T-Display)
@@ -330,7 +381,7 @@ Latest auto-generated (untested!) artifacts<sup>:warning:</sup>:
 * Panelized PCB ([gerbers](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink-buddy-breadboard/chainlinkBuddyBreadboard-panelized-jlc/gerbers.zip) / [pdf](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink-buddy-breadboard/chainlinkBuddyBreadboard-panelized-pcb-packet.pdf))
 * PCB bom (for manual assembly) [interactive](https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink-buddy-breadboard/bom/chainlinkBuddyBreadboard-ibom.html)
 
-<sup>:warning:</sup>For tested/stable/recommended artifacts, use the [latest release](https://github.com/scottbez1/splitflap/releases) instead
+<sup>:warning:</sup>For tested/stable/recommended artifacts, always use the [latest release](https://github.com/scottbez1/splitflap/releases) instead, as the links on this page will change over time.
 
 #### Chainlink Base (1 for entire display; large displays)
 <a href="https://s3.amazonaws.com/splitflap-artifacts/master/electronics-chainlink-base/chainlinkBase-3d.png">
@@ -388,35 +439,6 @@ There are optional WS2812B RGB LEDs which can be used to indicate the status of 
 
 
 ### Miscellaneous Tools
-
-#### Flaps and Fonts
-If you'd like to print your own flaps, or cut custom vinyl letter stickers, the project includes a script to generate vector design files
-that is extremely configurable:
-
-* Font for text (this is further customizable in OpenSCAD)
-* Character-set - which letters/numbers/symbols/colors are included and in what order
-* Bleed - extends rendering past the borders of the flaps to compensate for slight misalignment of printing and cutting operations
-* Keepout areas - option to highlight keepout violations for manual review, automatically clip them, or ignore them
-* Rendering options:
-    * Single-sided - useful for previewing how all letters will look on flaps
-    * Front/back - for batch duplex printing, generate separate front-side and back-side files (e.g. sign shop printing on a flat sheet of PVC)
-    * Side-by-side - for individual flap printing, each flap's front design is laid out side-by-side with its back design
-
-TODO: finish documenting this and render some example images...
-
-#### Combined Front Panel Generator
-If you'd like to share a single front face across multiple modules (rather than each module having its own front face), the repo
-includes a script to generate a combined front panel for laser-cutting or CNC milling/routing.
-
-You can modify:
-* Number of rows and columns
-* Horizontal and vertical spacing/separation of modules
-* Overall outer width and height of the panel
-
-For CNC cutting, the script supports rendering a vector file optimized for thicker material (e.g. 6mm MDF) where only the bolt-holes will be through-cut. In this mode, the slots for the top/bottom enclosure pieces can be cut as ~4mm pockets so they aren't visible from the front face. The script automatically generates dog-bone shapes for these pocket cuts.
-
-
-TODO: finish documenting this and render some example images...
 
 #### 3D Printed Tools
 The project also includes a number of optional 3D printed designs to make assembly easier. These include:
@@ -588,7 +610,7 @@ I'd love to hear your thoughts and questions about this project, and happy to in
 
 This project is licensed under Apache v2 (see [LICENSE.txt](LICENSE.txt)).
 
-    Copyright 2015-2024 Scott Bezek and the splitflap contributors
+    Copyright 2015-2025 Scott Bezek and the splitflap contributors
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
