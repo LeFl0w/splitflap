@@ -11,11 +11,9 @@
 - print two board edge
 - screw from inside to outside
 
-
-
 # Laser
 - PhotoSupport.svg is cardboard for holding photo. The size is equal to the photo size.
-
+- generate to support with py.exe .\generate_2d.py --num-flaps 200 --thickness 1.6
 
 # 3d print
 - use two board edge for each photo support
