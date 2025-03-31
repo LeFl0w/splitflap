@@ -18,3 +18,7 @@
 # 3d print
 - use two board edge for each photo support
 - generate support with `splitflap\3d\scripts> python .\generate_2d.py --num-flaps 100 --no-etch ` paramteers for flaps are in `3d\flap_dimensions.scad`
+
+- use svg in inkscape. then export it to DSXF R12 with save as function
+-import it in fusion360 (direct svg import as scale issues)
+
