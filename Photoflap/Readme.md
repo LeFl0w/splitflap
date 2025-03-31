@@ -12,10 +12,10 @@
 - screw from inside to outside
 
 
-
 # Laser
 - PhotoSupport.svg is cardboard for holding photo. The size is equal to the photo size.
 
 
 # 3d print
 - use two board edge for each photo support
+- generate support with `splitflap\3d\scripts> python .\generate_2d.py --num-flaps 100 --no-etch ` paramteers for flaps are in `3d\flap_dimensions.scad`
